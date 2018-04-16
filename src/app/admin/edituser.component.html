@@ -1,0 +1,26 @@
+<div>
+    <h2>Edit</h2>
+    <form name="form">
+        <div >
+            <label for="firstname">First Name</label>
+            <input type="text"  name="firstname"  [(ngModel)] ='firstname' />
+        </div>
+        <div>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname"  [(ngModel)] ='lastname'/>
+
+        </div>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username"  [(ngModel)] ='username'/>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password"  [(ngModel)] ='password'/>
+        </div>
+        <div >
+            <button (click)='update()'>Update</button>
+            <button (click)='cancel()'>Cancel</button>
+        </div>
+    </form>
+  </div>
