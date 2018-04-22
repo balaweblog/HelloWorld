@@ -1,5 +1,6 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/balaweblog/helloworld/badge.svg?targetFile=package.json)](https://snyk.io/test/github/balaweblog/helloworld?targetFile=package.json)
-unctionalities in different branches in iterations.
+[![Maintainability](https://api.codeclimate.com/v1/badges/19144dbd9ebac450c489/maintainability)](https://codeclimate.com/github/balaweblog/HelloWorld/maintainability)
+Functionalities in different branches in iterations.
 
 - Sprint 01 - Create a simple login component
 - Sprint 02 - Create a Create/Update/Delete/Edit components and using modules concept.
@@ -9,3 +10,4 @@ unctionalities in different branches in iterations.
 		Create a login service and provide login functionality to the existing application
 
 - Sprint 05 - Apply routing mechanism for all the components we created.
+
