@@ -11,7 +11,6 @@ import { AdminModule } from './admin/admin.module';
 import { BlogsModule } from './blogs/blogs.module';
 import { AppRoutingModule } from './app-routing.module';
 
-
 @NgModule({
   declarations: [
     AppComponent
