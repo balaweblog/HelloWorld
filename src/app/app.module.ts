@@ -8,37 +8,21 @@ import { CoreModule } from './core/core.module';
 import { LoginModule } from './login/login.module';
 import { SharedModule } from './shared/shared.module';
 import { AdminModule } from './admin/admin.module';
-import { LoginComponent } from './login/login.component';
-import { RouterModule, Routes } from '@angular/router';
-import { UserdetailsComponent } from './admin/userdetails.component';
-import { EdituserComponent } from './admin/edituser.component';
-import { RegisterComponent } from './admin/register.component';
-import { BlogsComponent } from './blogs/blogs.component';
-import { TodoComponent } from './blogs/todo.component';
+import { BlogsModule } from './blogs/blogs.module';
+import { AppRoutingModule } from './app-routing.module';
 
-const appRoutes: Routes = [
-  { path: 'login', component: LoginComponent },
-  { path: 'userdetails',  component: UserdetailsComponent },
-  { path: 'edituser', component: EdituserComponent},
-  { path: 'register', component: RegisterComponent},
-  { path: 'blogs', component: BlogsComponent},
-  { path: 'todos', component: TodoComponent}
-];
 
 @NgModule({
   declarations: [
-    AppComponent,
-    BlogsComponent,
-    TodoComponent
+    AppComponent
   ],
   imports: [
-    RouterModule.forRoot(
-      appRoutes
-    ),
     BrowserModule,
     FormsModule,
+    AppRoutingModule,
     CoreModule,
     LoginModule,
+    BlogsModule,
     AdminModule,
     SharedModule
   ],
