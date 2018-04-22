@@ -1,6 +1,13 @@
 
+<app-header></app-header>
+<div class="nav nav-tabs">
+    <nav class="nav nav-underline">
+    <a class="nav-link active" routerLink="/login" routerLinkActive="active">Login</a>
+    <a class="nav-link" routerLink="/userdetails" routerLinkActive="active">User Details</a>
+    <a class="nav-link" routerLink="/register" routerLinkActive="active">Register</a>
+    </nav>
+  </div>
 
-<a routerLink="/login" routerLinkActive="active">Login</a>
-<a routerLink="/userdetails" routerLinkActive="active">User Details</a>
-<a routerLink="/register" routerLinkActive="active">Register</a>
 <router-outlet></router-outlet>
+
+<app-footer></app-footer>
