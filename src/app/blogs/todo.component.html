@@ -1,0 +1,21 @@
+<div>
+  <h2>To Dos</h2>
+      <div>
+        <table class="table table-bordered table-sm">
+          <thead>
+            <tr>
+              <th>Users</th>
+              <th>Id</th>
+              <th>Title</th>
+              <th>Completed</th>
+            </tr>
+            <tr *ngFor='let todo of todos'>
+                <td>{{ todo.userId }}</td>
+                <td>{{ todo.id }}</td>
+                <td>{{ todo.title }}</td>
+                <td>{{ todo.completed }}</td>
+            </tr>
+          </thead>
+        </table>
+      </div>
+</div>

@@ -25,7 +25,7 @@
                                   <input name="remember" type="checkbox" value="Remember Me">Remember Me
                               </label>
                           </div>
-                          <button class="btn btn-lg btn-success btn-block"(click) ='login()'>Login</button>
+                          <button  [disabled]="loading" class="btn btn-lg btn-success btn-block"(click) ='login()'>Login</button>
                       </fieldset>
                   </form>
               </div>
